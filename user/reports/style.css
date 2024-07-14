@@ -1,0 +1,5 @@
+#main {
+  max-height: 100vh;
+  overflow-y: scroll;
+  position: relative;
+}

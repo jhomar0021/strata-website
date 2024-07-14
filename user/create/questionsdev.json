@@ -1,0 +1,36 @@
+[
+    {
+      "id": "rental_max_units",
+      "question": "What is the maximum number of rental units permissible under the strata bylaws?"
+    },
+    {
+      "id": "minimum_lease_period",
+      "question": "What is the minimum lease period for tenants renting a strata property?"
+    },
+    {
+      "id": "short_term_rentals_allowed",
+      "question": "Are strata owners allowed to offer short-term rentals such as through Airbnb or VRBO?"
+    },
+    {
+      "id": "bed_and_breakfast_use",
+      "question": "Can a strata unit be used as a Bed and Breakfast?"
+    },
+    {
+      "id": "short_term_rental_restrictions",
+      "question": "What restrictions or limitations are imposed on Short Term Rentals?"
+    },
+    {
+      "id": "short_term_rental_guest_restrictions",
+      "question": "What restrictions or limitations are imposed on Guests in Short Term Rentals?"
+    },
+    {
+      "id": "family_members_as_tenants",
+      "question": "Are family members considered tenants when renting a unit in the strata?"
+    },
+    {
+        "id": "vicious_breed_restriction",
+        "question": "Is there a vicious breed restriction in the strata building?"
+    }
+  ]
+
+

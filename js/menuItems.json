@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Reports",
+    "icon": "fa-solid fa-clipboard-list",
+    "href": "../reports"
+  },
+
+  {
+    "name": "Tools",
+    "icon": "fa-solid fa-toolbox",
+    "href": "../tools"
+  },
+  {
+    "name": "Help Center",
+    "icon": "fa-solid fa-circle-info",
+    "href": "../help"
+  }
+]

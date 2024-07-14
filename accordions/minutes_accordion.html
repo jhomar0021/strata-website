@@ -1,0 +1,676 @@
+<div class="accordion mt-3" id="minutes">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button aria-controls="minutestab1" aria-expanded="true" class="accordion-button"
+                data-bs-target="#minutestab1" data-bs-toggle="collapse" type="button">
+                Minutes
+            </button>
+        </h2>
+        <div class="accordion-collapse collapse show" data-bs-parent="#minutes" id="minutestab1">
+            <div class="accordion-body">
+                <button class="btn btn-primary mb-3 openAll float-end" type="button">
+                    Open All
+                </button>
+                <button class="btn btn-primary mb-3 closeAll float-end" style="display:none;" type="button">
+                    Close All
+                </button>
+                <div class="accordion accordion-flush">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="leakscollapse" aria-expanded="false" class="multi-collapse"
+                                data-bs-target="#leakscollapse" data-bs-toggle="collapse">
+                                Leaks
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="leakscollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Who was at fault for the reported leaks?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true" id="fault_for_leaks">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Are there any reports of water ingress pertaining to the building or common
+                                        property?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="water_ingress_reports">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Are there any reports of leaks in the building or between units?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true" id="leak_reports">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Did the leak result in a Strata Insurance claim being made?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="insurance_claim_for_leak">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        What was the cause of the leak?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true" id="cause_of_leak">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="plumbingcollapse" aria-expanded="false" class="multi-collapse"
+                                data-bs-target="#plumbingcollapse" data-bs-toggle="collapse" type="button">
+                                Plumbing
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="plumbingcollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Are there any signs of water leaking from the plumbing system?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="signs_of_plumbing_leaks">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Have there been any reports of water leaks in the plumbing system of the strata?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="reports_of_plumbing_leaks">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Did any of the plumbing in the strata get replaced or repaired recently?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="plumbing_repair_history">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Are there any reports of pinhole leaks in the building?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="pinhole_leak_reports">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="stratafeeincreasecollapse" aria-expanded="false"
+                                class="multi-collapse" data-bs-target="#stratafeeincreasecollapse"
+                                data-bs-toggle="collapse" type="button">
+                                Strata Fee Increase
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="stratafeeincreasecollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Are the Strata fees going up this year for Unit 9, and if so how much and by
+                                        what percentage?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="strata_fee_increase_unit_9">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="elevatorcollapse" aria-expanded="false" class="multi-collapse"
+                                data-bs-target="#elevatorcollapse" data-bs-toggle="collapse" type="button">
+                                Elevator
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="elevatorcollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        What is the age of the elevator?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true" id="elevator_age">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Has the elevator malfunctioned or ceased to operate?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="elevator_malfunction">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="buildingexteriorcollapse" aria-expanded="false"
+                                class="multi-collapse" data-bs-target="#buildingexteriorcollapse"
+                                data-bs-toggle="collapse" type="button">
+                                Building Exterior
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="buildingexteriorcollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        What is the planned schedule for building exterior maintenance for the strata
+                                        property?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="building_exterior_maintenance_schedule">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="mouldcollapse" aria-expanded="false" class="multi-collapse"
+                                data-bs-target="#mouldcollapse" data-bs-toggle="collapse" type="button">
+                                Mould
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="mouldcollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Are there any reports of mould in any of the suites of the strata?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true" id="reports_of_mould">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="legalcollapse" aria-expanded="false" class="multi-collapse"
+                                data-bs-target="#legalcollapse" data-bs-toggle="collapse" type="button">
+                                Legal
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="legalcollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Does the strata have any legal or civil suits?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true" id="legal_civil_suits">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="insurancecollapse" aria-expanded="false" class="multi-collapse"
+                                data-bs-target="#insurancecollapse" data-bs-toggle="collapse" type="button">
+                                Insurance
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="insurancecollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Did the Strata insurance policy need to be renewed?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="strata_insurance_renewal">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Has the strata made any insurance claims in the past 2 years? If so what was the
+                                        insurance claim for?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true" id="insurance_claims">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="roofcollapse" aria-expanded="false" class="multi-collapse"
+                                data-bs-target="#roofcollapse" data-bs-toggle="collapse" type="button">
+                                Roof
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="roofcollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Does the rooftop have annual or regular maintenance?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="rooftop_maintenance">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Have there been any reports of water leaks on the roof of the strata building?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="roof_water_leaks_reports">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Did the strata take any action to repair the roof?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="roof_repair_actions">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        When was the roof of the strata building last repaired?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true" id="last_roof_repair">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        What is the age of the roofing material on the strata?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true" id="roof_age">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="securitycollapse" aria-expanded="false" class="multi-collapse"
+                                data-bs-target="#securitycollapse" data-bs-toggle="collapse" type="button">
+                                Security
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="securitycollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Have there been any reports of burglaries or break-ins in the strata? and if so
+                                        what was broken into?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="reports_of_burglaries">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Was anything stolen in the reported burglaries or break-ins?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="stolen_items_reports">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Has the damage from the break-in been repaired?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="break_in_damage_repair">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Has there been any reports of vandalism to the strata property?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true" id="vandalism_reports">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="levycollapse" aria-expanded="false" class="multi-collapse"
+                                data-bs-target="#levycollapse" data-bs-toggle="collapse" type="button">
+                                Levy
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="levycollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Are there any additional fees or charges that the strata corporation will be
+                                        imposing on its members in the near future?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true" id="additional_fees">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        What would be the estimated amount for the levy?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="estimated_levy_amount">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Are there any proposed Special Levies that have not yet been voted on or
+                                        approved?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="proposed_special_levies">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="windowscollapse" aria-expanded="false" class="multi-collapse"
+                                data-bs-target="#windowscollapse" data-bs-toggle="collapse" type="button">
+                                Windows
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="windowscollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Has there been any reported problems with the windows in the strata?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="reported_window_problems">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Is there any window replacement planned?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="window_replacement_planned">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="noisecomplaintscollapse" aria-expanded="false" class="multi-collapse"
+                                data-bs-target="#noisecomplaintscollapse" data-bs-toggle="collapse" type="button">
+                                Noise Complaints
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="noisecomplaintscollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Has there been any reports of excessive noise that has caused complaints from
+                                        residents in the strata?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true" id="noise_complaints">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="smokingcomplaintscollapse" aria-expanded="false"
+                                class="multi-collapse" data-bs-target="#smokingcomplaintscollapse"
+                                data-bs-toggle="collapse" type="button">
+                                Smoking Complaints
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="smokingcomplaintscollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Has there been any reports of complaints related to smoking in the strata?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true" id="smoking_complaints">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="renovationrequestscollapse" aria-expanded="false"
+                                class="multi-collapse" data-bs-target="#renovationrequestscollapse"
+                                data-bs-toggle="collapse" type="button">
+                                Renovation Requests
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="renovationrequestscollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Are there any requests for renovations or improvements to the strata property?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="renovation_requests">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Did the request to make renovations or improvements to the strata get approved?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="renovation_request_approval">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="pestscollapse" aria-expanded="false" class="multi-collapse"
+                                data-bs-target="#pestscollapse" data-bs-toggle="collapse" type="button">
+                                Pests
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="pestscollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Have there been any reports of pests such as mice, rats, ants, or bed bugs in
+                                        the building or individual units of the strata?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true" id="pest_reports">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="fireinspectionscollapse" aria-expanded="false" class="multi-collapse"
+                                data-bs-target="#fireinspectionscollapse" data-bs-toggle="collapse" type="button">
+                                Fire Inspections
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="fireinspectionscollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Is there an annual fire inspection?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="annual_fire_inspection">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Have the fire inspection deficiencies been addressed?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true"
+                                            id="fire_inspection_deficiencies_addressed">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button aria-controls="unitspecificmentionscollapse" aria-expanded="false"
+                                class="multi-collapse" data-bs-target="#unitspecificmentionscollapse"
+                                data-bs-toggle="collapse" type="button">
+                                Unit Specific Mentions
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse multi-collapse" id="unitspecificmentionscollapse">
+                            <div class="accordion-body p-2 py-3">
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        Is there any specific mention of Unit 9 in the strata minutes?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true" id="unit_9_mentions">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mb-3">
+                                    <div class="card-header py-3">
+                                        What is the unit entitlement for Unit 9?
+                                    </div>
+                                    <div class="card-body p-0 m-0">
+                                        <p class="card-text p-2 px-lg-5" contenteditable="true" id="unit_9_entitlement">
+                                            Placeholder for response.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

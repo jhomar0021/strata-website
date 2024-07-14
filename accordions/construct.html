@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Sidebar with Collapsible List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/77ec53770a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../css/ui.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-12" id="main">
+
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="accordion mt-3" id="bylaws">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#bylawstab1" aria-expanded="true"
+                                                aria-controls="bylawstab1">
+                                                bylaws
+                                            </button>
+                                        </h2>
+                                        <div id="bylawstab1" class="accordion-collapse collapse show"
+                                            data-bs-parent="#bylaws">
+                                            <div class="accordion-body">
+                                                <button class="btn btn-primary mb-3 openAll float-end" type="button">
+                                                    Open All
+                                                </button>
+                                                <button class="btn btn-primary mb-3 closeAll float-end" type="button"
+                                                    style="display:none;">
+                                                    Close All
+                                                </button>
+
+                                                <div class="accordion accordion-flush">
+                                                    <!-- Rental -->
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed mt-3"
+                                                                type="button" data-bs-toggle="collapse"
+                                                                data-bs-target="#rentalcollapse" aria-expanded="false"
+                                                                aria-controls="rentalcollapse" class="multi-collapse">
+                                                                Rental
+                                                            </button>
+                                                        </h2>
+                                                        <div id="rentalcollapse"
+                                                            class="accordion-collapse collapse multi-collapse">
+                                                            <div class="accordion-body p-2 py-3">
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">What is the maximum
+                                                                        number
+                                                                        of rental units permissible under the strata
+                                                                        bylaws?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="rental_max_units">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">What is the minimum
+                                                                        lease
+                                                                        period for tenants renting a strata property?
+                                                                    </div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="minimum_lease_period">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">Are strata owners
+                                                                        allowed
+                                                                        to offer short-term rentals such as through
+                                                                        Airbnb or VRBO?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="short_term_rentals_allowed">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">Can a strata unit be
+                                                                        used
+                                                                        as a Bed and Breakfast ?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="bed_and_breakfast_use">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">What restrictions or
+                                                                        limitations are imposed on Short Term Rentals?
+                                                                    </div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="short_term_rental_restrictions">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">What restrictions or
+                                                                        limitations are imposed on Guests in Short Term
+                                                                        Rentals?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="short_term_rental_guest_restrictions">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">Are family members
+                                                                        considered tenants when renting a unit in the
+                                                                        strata?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="family_members_as_tenants">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Pets -->
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed mt-3"
+                                                                type="button" data-bs-toggle="collapse"
+                                                                data-bs-target="#petscollapse" aria-expanded="false"
+                                                                aria-controls="petscollapse" class="multi-collapse">
+                                                                Pets
+                                                            </button>
+                                                        </h2>
+                                                        <div id="petscollapse"
+                                                            class="accordion-collapse collapse multi-collapse">
+                                                            <div class="accordion-body p-2 py-3">
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">Is there a vicious
+                                                                        breed restriction in the strata building?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="vicious_breed_restriction">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">Is there a size
+                                                                        restriction for dogs in the strata building?
+                                                                    </div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="dog_size_restriction">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">What pets are allowed
+                                                                        per unit in a strata building?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="allowed_pets_per_unit">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">Are pets allowed in
+                                                                        the strata building?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true" id="pets_allowed">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">How many pets are
+                                                                        allowed per unit in a strata building?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="pets_per_unit_limit">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">What are the pet
+                                                                        restrictions in the strata building?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="pet_restrictions">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Smoking -->
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed mt-3"
+                                                                type="button" data-bs-toggle="collapse"
+                                                                data-bs-target="#smokingcollapse" aria-expanded="false"
+                                                                aria-controls="smokingcollapse" class="multi-collapse">
+                                                                Smoking
+                                                            </button>
+                                                        </h2>
+                                                        <div id="smokingcollapse"
+                                                            class="accordion-collapse collapse multi-collapse">
+                                                            <div class="accordion-body p-2 py-3">
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">What are the strata
+                                                                        building's smoking regulations?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="smoking_regulations">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">Are there any
+                                                                        restrictions regarding tobacco or marijuana
+                                                                        smoking inside the suites and apartments, or on
+                                                                        balconies?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="smoking_restrictions">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">Where if at all is
+                                                                        smoking permitted in the building?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="smoking_permitted_areas">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!--BBQ -->
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed mt-3"
+                                                                type="button" data-bs-toggle="collapse"
+                                                                data-bs-target="#bbqcollapse" aria-expanded="false"
+                                                                aria-controls="bbqcollapse" class="multi-collapse">
+                                                                BBQ
+                                                            </button>
+                                                        </h2>
+                                                        <div id="bbqcollapse"
+                                                            class="accordion-collapse collapse multi-collapse">
+                                                            <div class="accordion-body p-2 py-3">
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">Can residents of the
+                                                                        strata have barbecues?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true" id="bbq_allowed">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">What type of BBQ is
+                                                                        permitted in the strata?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="permitted_bbq_type">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!--Move In Out Fees -->
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed mt-3"
+                                                                type="button" data-bs-toggle="collapse"
+                                                                data-bs-target="#movecollapse" aria-expanded="false"
+                                                                aria-controls="movecollapse" class="multi-collapse">
+                                                                Move In Out Fees
+                                                            </button>
+                                                        </h2>
+                                                        <div id="movecollapse"
+                                                            class="accordion-collapse collapse multi-collapse">
+                                                            <div class="accordion-body p-2 py-3">
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">Are there any fees
+                                                                        associated with moving in or out of the strata?
+                                                                    </div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="move_in_out_fees">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">When moving in or out,
+                                                                        what is the required notice that must be given?
+                                                                    </div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="move_notice_required">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">What is the move in
+                                                                        and move out times?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="move_in_out_times">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">Are there specific
+                                                                        move in or out procedures to follow?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="move_in_out_procedures">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!--Other -->
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed mt-3"
+                                                                type="button" data-bs-toggle="collapse"
+                                                                data-bs-target="#othercollapse" aria-expanded="false"
+                                                                aria-controls="othercollapse" class="multi-collapse">
+                                                                Other
+                                                            </button>
+                                                        </h2>
+                                                        <div id="othercollapse"
+                                                            class="accordion-collapse collapse multi-collapse">
+                                                            <div class="accordion-body p-2 py-3">
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">Does the strata have
+                                                                        designated times when noise must be kept to a
+                                                                        minimum?
+                                                                    </div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="noise_minimum_times">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">Are Christmas Trees
+                                                                        and Holiday decorations allowed?
+                                                                    </div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="holiday_decorations">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">Are Air Conditioning
+                                                                        units allowed in the Strata unit?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="air_conditioning_units">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">Is there a maximum
+                                                                        occupancy rule in the bylaws?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="maximum_occupancy">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card mb-3">
+                                                                    <div class="card-header py-3">Is hard surface
+                                                                        flooring allowed in the strata unit? and if so
+                                                                        are there any restrictions to the installation
+                                                                        of hard
+                                                                        surface flooring?</div>
+                                                                    <div class="card-body p-0 m-0">
+                                                                        <p class="card-text p-2 px-lg-5"
+                                                                            contenteditable="true"
+                                                                            id="hard_surface_flooring">
+                                                                            Lorem ipsum dolor sit amet consectetur,
+                                                                            adipisicing elit.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="../../js/ui.js"></script>
+            <script src="script.js"></script>
+</body>
+
+</html>

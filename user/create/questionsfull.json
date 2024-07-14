@@ -1,0 +1,688 @@
+[
+    {
+      "id": "rental_max_units",
+      "question": "What is the maximum number of rental units permissible under the strata bylaws?"
+    },
+    {
+      "id": "minimum_lease_period",
+      "question": "What is the minimum lease period for tenants renting a strata property?"
+    },
+    {
+      "id": "short_term_rentals_allowed",
+      "question": "Are strata owners allowed to offer short-term rentals such as through Airbnb or VRBO?"
+    },
+    {
+      "id": "bed_and_breakfast_use",
+      "question": "Can a strata unit be used as a Bed and Breakfast?"
+    },
+    {
+      "id": "short_term_rental_restrictions",
+      "question": "What restrictions or limitations are imposed on Short Term Rentals?"
+    },
+    {
+      "id": "short_term_rental_guest_restrictions",
+      "question": "What restrictions or limitations are imposed on Guests in Short Term Rentals?"
+    },
+    {
+      "id": "family_members_as_tenants",
+      "question": "Are family members considered tenants when renting a unit in the strata?"
+    },
+    {
+        "id": "vicious_breed_restriction",
+        "question": "Is there a vicious breed restriction in the strata building?"
+    },
+    {
+    "id": "dog_size_restriction",
+    "question": "Is there a size restriction for dogs in the strata building?"
+    },
+    {
+    "id": "allowed_pets_per_unit",
+    "question": "What pets are allowed per unit in a strata building?"
+    },
+    {
+    "id": "pets_allowed",
+    "question": "Are pets allowed in the strata building?"
+    },
+    {
+    "id": "pets_per_unit_limit",
+    "question": "How many pets are allowed per unit in a strata building?"
+    },
+    {
+    "id": "pet_restrictions",
+    "question": "What are the pet restrictions in the strata building?"
+    },
+    {
+    "id": "smoking_regulations",
+    "question": "What are the strata building's smoking regulations?"
+    },
+    {
+    "id": "smoking_restrictions",
+    "question": "Are there any restrictions regarding tobacco or marijuana smoking inside the suites and apartments, or on balconies?"
+    },
+    {
+    "id": "smoking_permitted_areas",
+    "question": "Where if at all is smoking permitted in the building?"
+    },
+    {
+    "id": "bbq_allowed",
+    "question": "Can residents of the strata have barbecues?"
+    },
+    {
+    "id": "permitted_bbq_type",
+    "question": "What type of BBQ is permitted in the strata?"
+    },
+    {
+    "id": "move_in_out_fees",
+    "question": "Are there any fees associated with moving in or out of the strata?"
+    },
+    {
+    "id": "move_notice_required",
+    "question": "When moving in or out, what is the required notice that must be given?"
+    },
+    {
+    "id": "move_in_out_times",
+    "question": "What is the move in and move out times?"
+    },
+    {
+    "id": "move_in_out_procedures",
+    "question": "Are there specific move in or out procedures to follow?"
+    },
+    {
+    "id": "noise_minimum_times",
+    "question": "Does the strata have designated times when noise must be kept to a minimum?"
+    },
+    {
+    "id": "holiday_decorations",
+    "question": "Are Christmas Trees and Holiday decorations allowed?"
+    },
+    {
+    "id": "air_conditioning_units",
+    "question": "Are Air Conditioning units allowed in the Strata unit?"
+    },
+    {
+    "id": "maximum_occupancy",
+    "question": "Is there a maximum occupancy rule in the bylaws?"
+    },
+    {
+    "id": "hard_surface_flooring",
+    "question": "Is hard surface flooring allowed in the strata unit? And if so, are there any restrictions to the installation of hard surface flooring?"
+    },
+    {
+    "id": "fault_for_leaks",
+    "question": "Who was at fault for the reported leaks?"
+    },
+    {
+    "id": "water_ingress_reports",
+    "question": "Are there any reports of water ingress pertaining to the building or common property?"
+    },
+    {
+    "id": "leak_reports",
+    "question": "Are there any reports of leaks in the building or between units?"
+    },
+    {
+    "id": "insurance_claim_for_leak",
+    "question": "Did the leak result in a Strata Insurance claim being made?"
+    },
+    {
+    "id": "cause_of_leak",
+    "question": "What was the cause of the leak?"
+    },
+    {
+    "id": "signs_of_plumbing_leaks",
+    "question": "Are there any signs of water leaking from the plumbing system?"
+    },
+    {
+    "id": "reports_of_plumbing_leaks",
+    "question": "Have there been any reports of water leaks in the plumbing system of the strata?"
+    },
+    {
+    "id": "plumbing_repair_history",
+    "question": "Did any of the plumbing in the strata get replaced or repaired recently?"
+    },
+    {
+    "id": "pinhole_leak_reports",
+    "question": "Are there any reports of pinhole leaks in the building?"
+    },
+    {
+    "id": "strata_fee_increase_unit_9",
+    "question": "Are the Strata fees going up this year for Unit 9, and if so how much and by what percentage?"
+    },
+    {
+    "id": "elevator_age",
+    "question": "What is the age of the elevator?"
+    },
+    {
+    "id": "elevator_malfunction",
+    "question": "Has the elevator malfunctioned or ceased to operate?"
+    },
+    {
+    "id": "building_exterior_maintenance_schedule",
+    "question": "What is the planned schedule for building exterior maintenance for the strata property?"
+    },
+    {
+    "id": "reports_of_mould",
+    "question": "Are there any reports of mould in any of the suites of the strata?"
+    },
+    {
+    "id": "legal_civil_suits",
+    "question": "Does the strata have any legal or civil suits?"
+    },
+    {
+    "id": "strata_insurance_renewal",
+    "question": "Did the Strata insurance policy need to be renewed?"
+    },
+    {
+    "id": "rooftop_maintenance",
+    "question": "Does the rooftop have annual or regular maintenance?"
+    },
+    {
+    "id": "roof_water_leaks_reports",
+    "question": "Have there been any reports of water leaks on the roof of the strata building?"
+    },
+    {
+    "id": "roof_repair_actions",
+    "question": "Did the strata take any action to repair the roof?"
+    },
+    {
+    "id": "last_roof_repair",
+    "question": "When was the roof of the strata building last repaired?"
+    },
+    {
+    "id": "roof_age",
+    "question": "What is the age of the roofing material on the strata?"
+    },
+    {
+    "id": "reports_of_burglaries",
+    "question": "Have there been any reports of burglaries or break-ins in the strata? and if so what was broken into?"
+    },
+    {
+    "id": "stolen_items_reports",
+    "question": "Was anything stolen in the reported burglaries or break-ins?"
+    },
+    {
+    "id": "break_in_damage_repair",
+    "question": "Has the damage from the break-in been repaired?"
+    },
+    {
+    "id": "vandalism_reports",
+    "question": "Has there been any reports of vandalism to the strata property?"
+    },
+    {
+    "id": "additional_fees",
+    "question": "Are there any additional fees or charges that the strata corporation will be imposing on its members in the near future?"
+    },
+    {
+    "id": "estimated_levy_amount",
+    "question": "What would be the estimated amount for the levy?"
+    },
+    {
+    "id": "proposed_special_levies",
+    "question": "Are there any proposed Special Levies that have not yet been voted on or approved?"
+    },
+    {
+    "id": "reported_window_problems",
+    "question": "Has there been any reported problems with the windows in the strata?"
+    },
+    {
+    "id": "window_replacement_planned",
+    "question": "Is there any window replacement planned?"
+    },
+    {
+    "id": "noise_complaints",
+    "question": "Has there been any reports of excessive noise that has caused complaints from residents in the strata?"
+    },
+    {
+    "id": "smoking_complaints",
+    "question": "Has there been any reports of complaints related to smoking in the strata?"
+    },
+    {
+    "id": "insurance_claims",
+    "question": "Has the strata made any insurance claims in the past 2 years? If so what was the insurance claim for?"
+    },
+    {
+    "id": "renovation_requests",
+    "question": "Are there any requests for renovations or improvements to the strata property?"
+    },
+    {
+    "id": "renovation_request_approval",
+    "question": "Did the request to make renovations or improvements to the strata get approved?"
+    },
+    {
+    "id": "pest_reports",
+    "question": "Have there been any reports of pests such as mice, rats, ants, or bed bugs in the building or individual units of the strata?"
+    },
+    {
+    "id": "annual_fire_inspection",
+    "question": "Is there an annual fire inspection?"
+    },
+    {
+    "id": "fire_inspection_deficiencies_addressed",
+    "question": "Have the fire inspection deficiencies been addressed?"
+    },
+    {
+    "id": "unit_9_mentions",
+    "question": "Is there any specific mention of Unit 9 in the strata minutes?"
+    },
+    {
+    "id": "unit_9_entitlement",
+    "question": "What is the unit entitlement for Unit 9?"
+    },
+    {
+    "id": "reserve_fund_balance",
+    "question": "What is the balance of the Reserve Fund?"
+    },
+    {
+    "id": "current_reserve_fund_status",
+    "question": "What is the current financial status of the Reserve Fund, and how is it influenced by the balances and activities of other related funds?"
+    },
+    {
+    "id": "annual_contribution_to_reserve_fund",
+    "question": "What is the budgeted annual contribution to the Reserve Fund?"
+    },
+    {
+    "id": "operating_surplus_or_deficit",
+    "question": "Is there an operating surplus or deficit?"
+    },
+    {
+    "id": "utilities_budget",
+    "question": "What is the estimated budget for utilities for the strata property?"
+    },
+    {
+    "id": "total_budget_per_year",
+    "question": "What is the total amount allocated for the strata budget for each year available?"
+    },
+    {
+    "id": "general_repairs_maintenance_budget",
+    "question": "What is the annual budget allocated for general repairs and maintenance of the strata?"
+    },
+    {
+    "id": "insurance_budget",
+    "question": "What is the amount allocated for insurance coverage in the strata's budget?"
+    },
+    {
+    "id": "landscaping_budget",
+    "question": "What is the budget for landscaping services of the strata?"
+    },
+    {
+    "id": "window_cleaning_budget",
+    "question": "What is the budget for window cleaning services for the strata?"
+    },
+    {
+    "id": "pest_control_budget",
+    "question": "What is the budget allocated for pest control services?"
+    },
+    {
+    "id": "dryer_duct_cleaning_budget",
+    "question": "What is the budget allocated for dryer duct cleaning?"
+    },
+    {
+    "id": "insurance_premium_history",
+    "question": "What is the history of insurance premiums?"
+    },
+    {
+    "id": "water_damage_deductible",
+    "question": "What is the water damage deductible?"
+    },
+    {
+    "id": "insurance_policy_type",
+    "question": "What type of insurance policy does the strata have?"
+    },
+    {
+    "id": "policy_limits",
+    "question": "What are the policy limits?"
+    },
+    {
+    "id": "insurance_coverage_extent",
+    "question": "What is the extent of the insurance coverage?"
+    },
+    {
+    "id": "policy_exclusions_limitations",
+    "question": "Are there any exclusions or limitations in the policy?"
+    },
+    {
+    "id": "special_assessments_deductibles",
+    "question": "Are there any special assessments or deductibles?"
+    },
+    {
+    "id": "recent_insurance_claims",
+    "question": "Are there any recent insurance claims?"
+    },
+    {
+    "id": "upcoming_insurance_changes",
+    "question": "Are there any upcoming changes to the insurance policy?"
+    },
+    {
+    "id": "insurance_expiry",
+    "question": "When does the strata insurance expire?"
+    },
+    {
+    "id": "agm_contractor_issues",
+    "question": "Did the AGM discuss any issues with contractors or vendors that provide services to the strata?"
+    },
+    {
+    "id": "agm_failed_motions",
+    "question": "Were there any motions put forward during the AGM that were not passed? If so, what were they?"
+    },
+    {
+    "id": "agm_major_issues",
+    "question": "Were there any major issues or concerns raised during the most recent AGM?"
+    },
+    {
+    "id": "agm_capital_projects",
+    "question": "Are there any planned capital projects or improvements discussed during the AGM?"
+    },
+    {
+    "id": "agm_contingency_reserve",
+    "question": "How does the AGM address issues related to contingency reserve funds and the building's long-term maintenance plan?"
+    },
+    {
+    "id": "agm_bylaw_changes",
+    "question": "Were there any discussions during the AGM about changes in bylaws or rules of the strata?"
+    },
+    {
+    "id": "agm_financial_statements",
+    "question": "How were the financial statements received and reviewed during the AGM? Were there any concerns or discrepancies noted?"
+    },
+    {
+    "id": "agm_special_assessments",
+    "question": "Were there any Special Assessments or Special Levies approved at the AGM? If so, for what and how much?"
+    },
+    {
+    "id": "sgm_special_resolutions",
+    "question": "Were there any special resolutions or urgent decisions made during the SGM? If so, what were they?"
+    },
+    {
+    "id": "sgm_reason",
+    "question": "What were the specific reasons or circumstances that led to the calling of the most recent SGM?"
+    },
+    {
+    "id": "sgm_emergency_repairs",
+    "question": "Did the SGM address any immediate or emergency repairs or alterations needed for the building or common property?"
+    },
+    {
+    "id": "sgm_management_changes",
+    "question": "Were there any significant changes to the management or operational structure of the strata decided during the SGM?"
+    },
+    {
+    "id": "sgm_disputes_handling",
+    "question": "How did the SGM handle any disputes or conflicts among strata members or with external parties?"
+    },
+    {
+    "id": "sgm_contingency_funds",
+    "question": "What discussions took place during the SGM regarding the allocation or use of contingency or special funds?"
+    },
+    {
+    "id": "sgm_bylaw_changes",
+    "question": "Were there any temporary changes or additions to the strata bylaws or rules proposed or approved during the SGM?"
+    },
+    {
+    "id": "sgm_communication",
+    "question": "How was the need for the SGM and its outcomes communicated to the strata members who could not attend?"
+    },
+    {
+    "id": "additional_fees_special_levies",
+    "question": "Are there any other fees or special levies that are not included in the monthly strata fee?"
+    },
+    {
+    "id": "fees_in_arrears",
+    "question": "Are any fees in arrears or overdue?"
+    },
+    {
+    "id": "contemplated_special_assessments",
+    "question": "Is the strata contemplating any special assessments in the near future?"
+    },
+    {
+    "id": "next_agm",
+    "question": "When is the next Annual General Meeting (AGM) scheduled?"
+    },
+    {
+    "id": "last_agm_major_decisions",
+    "question": "Were there any major decisions or discussions in the last AGM?"
+    },
+    {
+    "id": "unit_9_responsibilities",
+    "question": "Are there any specific responsibilities or actions required from the owner of Unit 9 as per the Form B?"
+    },
+    {
+    "id": "unauthorized_renovations",
+    "question": "Are there any renovations or changes made to a unit that have not been approved?"
+    },
+    {
+    "id": "parking_designation",
+    "question": "Are the parking spots designated common property or limited common property?"
+    },
+    {
+    "id": "parking_additional_costs",
+    "question": "Are there additional costs associated with parking?"
+    },
+    {
+    "id": "unit_9_parking_allocation",
+    "question": "How many parking spots are allocated to unit 9 and what are the stall numbers?"
+    },
+    {
+    "id": "form_b_issue_date",
+    "question": "What is the issue date of this Form B?"
+    },
+    {
+    "id": "outstanding_bylaw_infractions",
+    "question": "Are there any outstanding bylaw infractions noted on the Form B?"
+    },
+    {
+    "id": "unit_9_storage_locker",
+    "question": "What is the storage locker assigned to unit 9?"
+    },
+    {
+    "id": "storage_locker_location",
+    "question": "Where is the storage locker located in the building?"
+    },
+    {
+    "id": "storage_restrictions",
+    "question": "Are there any restrictions on what can be stored in the locker?"
+    },
+    {
+    "id": "bicycle_storage",
+    "question": "Is there bicycle storage in the building?"
+    },
+    {
+    "id": "upcoming_repairs_maintenance",
+    "question": "Is there any mention of major upcoming repairs or maintenance work in the Form B?"
+    },
+    {
+    "id": "outstanding_fees",
+    "question": "Are there any outstanding fees or money owing to the Strata on the Form B?"
+    },
+    {
+    "id": "engineers_report_findings",
+    "question": "What were the major findings of the most recent engineer's report regarding the building's structural integrity?"
+    },
+    {
+    "id": "engineers_report_urgent_repairs",
+    "question": "Were there any recommendations for urgent repairs or maintenance in the engineer's report?"
+    },
+    {
+    "id": "compliance_with_codes",
+    "question": "How does the engineer's report assess the building's compliance with current building codes and safety standards?"
+    },
+    {
+    "id": "projected_lifespan_components",
+    "question": "What is the projected lifespan of major building components according to the engineer's report?"
+    },
+    {
+    "id": "proposed_upgrades",
+    "question": "Are there any proposed upgrades or improvements suggested in the engineer's report?"
+    },
+    {
+    "id": "energy_efficiency",
+    "question": "How does the engineer's report address the building's energy efficiency and environmental impact?"
+    },
+    {
+    "id": "resolved_discrepancies",
+    "question": "Were there any discrepancies or issues in previous engineer's reports that have been resolved or remain outstanding?"
+    },
+    {
+    "id": "recommended_inspection_frequency",
+    "question": "How often does the engineer recommend conducting subsequent inspections or reports for the building?"
+    },
+    {
+    "id": "building_systems_addressed",
+    "question": "What building systems does the engineers report address?"
+    },
+    {
+    "id": "report_prepared_by",
+    "question": "Who was the report prepared by?"
+    },
+    {
+    "id": "report_date",
+    "question": "What is the date of the depreciation report, and is it recent and up-to-date?"
+    },
+    {
+    "id": "building_foundation_condition",
+    "question": "What is the current condition of the building's foundation and structure?"
+    },
+    {
+    "id": "windows_age",
+    "question": "What is the age of the windows?"
+    },
+    {
+    "id": "exterior_problems",
+    "question": "Are there any noted problems with the roof, windows, or exterior cladding?"
+    },
+    {
+    "id": "key_components_age_replacement",
+    "question": "How old are the key structural components and when are they due for replacement?"
+    },
+    {
+    "id": "water_damage_signs",
+    "question": "Are there any signs of water damage, leaks, or moisture problems?"
+    },
+    {
+    "id": "major_components_inventory",
+    "question": "What major components are included in the building's inventory, and what are their age, condition, and remaining useful life?"
+    },
+    {
+    "id": "building_systems_age",
+    "question": "What is the age of the following building systems: roof, windows, elevator, plumbing or piping, parking membrane?"
+    },
+    {
+    "id": "adequate_funds_reserve_fund",
+    "question": "Does the reserve fund have adequate funds for the anticipated repairs or replacements?"
+    },
+    {
+    "id": "special_assessments_next_5_years",
+    "question": "Are there any special assessments planned or anticipated in the next 5 years?"
+    },
+    {
+    "id": "special_assessments_next_6_10_years",
+    "question": "Are there any special assessments planned or anticipated in the next 6-10 years?"
+    },
+    {
+    "id": "past_special_assessments",
+    "question": "How often have special assessments been levied in the past?"
+    },
+    {
+    "id": "maintenance_fees_pattern",
+    "question": "What is the pattern of maintenance fees? Have they been steadily increasing?"
+    },
+    {
+    "id": "estimated_repair_costs",
+    "question": "What are the estimated costs for repairing or replacing each major component when their useful life is over, and how do these costs impact the strata corporation financially?"
+    },
+    {
+    "id": "funding_plan_sufficiency",
+    "question": "Does the depreciation report include a funding plan outlining how the strata corporation will finance the repair or replacement of major components, and is it sufficient to cover the anticipated expenses?"
+    },
+    {
+    "id": "current_reserve_fund_balance",
+    "question": "What is the current balance of the reserve fund, and how does it compare to the projected expenses?"
+    },
+    {
+    "id": "contingency_fund_coverage",
+    "question": "How well-funded is the contingency fund, and does it provide adequate coverage for unexpected expenses or emergencies?"
+    },
+    {
+    "id": "special_assessments_impact",
+    "question": "Are there any special assessments levied on the property owners to cover major expenses, and how do they affect the affordability and desirability of the property?"
+    },
+    {
+    "id": "strata_fee_increases_history",
+    "question": "What is the history of strata fee increases, and how might they affect new buyers' affordability and budgeting?"
+    },
+    {
+    "id": "maintenance_history_upcoming_projects",
+    "question": "What is the building's maintenance history, and are there any upcoming major projects or replacements that may impact the property's overall condition or result in special assessments for new owners in the near future?"
+    },
+    {
+    "id": "upcoming_maintenance_projects",
+    "question": "Has the strata alluded to any upcoming maintenance or renewal projects?"
+    },
+    {
+    "id": "water_system_installed",
+    "question": "Does the building have a Hytec water system or any water treatment system installed?"
+    },
+    {
+    "id": "depreciation_recommendations",
+    "question": "What recommendations are provided in the depreciation report, and how can they help improve the building's condition and financial stability?"
+    },
+    {
+    "id": "industry_standards_expenses",
+    "question": "Are the projected expenses and reserve fund contributions in line with industry standards and expectations?"
+    },
+    {
+    "id": "legal_disputes_insurance_claims",
+    "question": "Are there any legal disputes or insurance claims involving the strata corporation that could impact the property's value, desirability, or financial stability?"
+    },
+    {
+    "id": "environmental_sustainability_concerns",
+    "question": "Does the depreciation report mention any environmental or sustainability concerns, such as energy efficiency, water management, or the use of eco-friendly materials in the building?"
+    },
+    {
+    "id": "policies_affecting_new_buyers",
+    "question": "Does the strata corporation have any policies that may affect new buyers' lifestyle preferences or investment plans?"
+    },
+    {
+    "id": "common_areas_condition",
+    "question": "What is the condition of common areas like hallways, lobbies, and recreational facilities and are there any upcoming renovations or repairs planned for these areas?"
+    },
+    {
+    "id": "common_areas_maintenance_frequency",
+    "question": "How often are the common areas and amenities areas maintained or upgraded?"
+    },
+    {
+    "id": "common_amenities_maintenance_costs",
+    "question": "Are there any common amenities or facilities in the building, such as a gym, pool, or recreational areas, and how do their maintenance costs and projected lifespans affect the overall financial picture?"
+    },
+    {
+    "id": "unit_9_issues",
+    "question": "Are there any complaints or issues related to the unit we are considering, unit 9?"
+    },
+    {
+    "id": "planned_major_repairs",
+    "question": "Are there any planned major repairs or upgrades? If so, what is the estimated timeline and cost?"
+    },
+    {
+    "id": "recent_legal_disputes",
+    "question": "Have there been any recent legal disputes involving the strata corporation?"
+    },
+    {
+    "id": "pending_lawsuits_compliance",
+    "question": "Are there any pending lawsuits or compliance issues?"
+    },
+    {
+    "id": "upcoming_special_assessments",
+    "question": "Are there any upcoming special assessments?"
+    },
+    {
+    "id": "strata_fee_increases",
+    "question": "What is the history of the Strata fee increases and will more large ones be required?"
+    },
+    {
+    "id": "rental_cap_waiting_list",
+    "question": "Details on current rental cap and waiting list for rental permissions."
+    },
+    {
+    "id": "reserve_fund_health",
+    "question": "Is the reserve fund healthy and sufficient to cover future major repairs and maintenance?"
+    }
+  ]
+
+

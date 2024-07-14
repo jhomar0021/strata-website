@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Reports",
+    "icon": "fa-solid fa-clipboard-list",
+    "href": "../reports"
+  },
+  {
+    "name": "Reports",
+    "icon": "fa-solid fa-clipboard-list",
+    "href": "../reports",
+    "submenu": {
+      "items": [
+        {
+          "name": "Submenu",
+          "icon": "fa-solid fa-clipboard-list",
+          "href": "../reports"
+        },
+        {
+          "name": "Submenu",
+          "icon": "fa-solid fa-clipboard-list",
+          "href": "../reports"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Tools",
+    "icon": "fa-solid fa-toolbox",
+    "href": "../reports"
+  },
+  {
+    "name": "Help Center",
+    "icon": "fa-solid fa-circle-info",
+    "href": "../help"
+  }
+]
